@@ -1,0 +1,33 @@
+Model with rank: 1 
+Mean f1 score: 0.934 (std: 0.005) 
+Parameters: {'min_samples_leaf': 2, 'n_estimators': 33, 'min_samples_split': 9, 'criterion': 'entropy', 'max_features': 'sqrt', 'max_depth': None} 
+
+Model with rank: 2 
+Mean f1 score: 0.933 (std: 0.008) 
+Parameters: {'min_samples_leaf': 1, 'n_estimators': 74, 'min_samples_split': 3, 'criterion': 'entropy', 'max_features': 'sqrt', 'max_depth': None} 
+
+Model with rank: 3 
+Mean f1 score: 0.932 (std: 0.005) 
+Parameters: {'min_samples_leaf': 2, 'n_estimators': 85, 'min_samples_split': 6, 'criterion': 'gini', 'max_features': 'sqrt', 'max_depth': 9} 
+
+Model with rank: 4 
+Mean f1 score: 0.932 (std: 0.005) 
+Parameters: {'min_samples_leaf': 1, 'n_estimators': 80, 'min_samples_split': 3, 'criterion': 'entropy', 'max_features': 'log2', 'max_depth': 9} 
+
+Model with rank: 5 
+Mean f1 score: 0.931 (std: 0.006) 
+Parameters: {'min_samples_leaf': 2, 'n_estimators': 46, 'min_samples_split': 8, 'criterion': 'entropy', 'max_features': 'log2', 'max_depth': None} 
+
+Feature Importances: 
+
+[('n_visits', 0.39567344883037064),
+ ('intersession_mu', 0.33585284685471722),
+ ('usage_tenure', 0.25742546096023083),
+ ('opted_in_to_mailing_list', 0.00208964728563673),
+ ('enabled_for_marketing_drip', 0.0016933971563717952),
+ ('creation_source_GUEST_INVITE', 0.0014334460110123576),
+ ('creation_source_ORG_INVITE', 0.0014119863048640789),
+ ('creation_source_SIGNUP_GOOGLE_AUTH', 0.0011512244951799532),
+ ('creation_source_PERSONAL_PROJECTS', 0.001143438626825373),
+ ('creation_source_SIGNUP', 0.0010934103688045398),
+ ('invited_by_user_id', 0.0010316931059863573)]
