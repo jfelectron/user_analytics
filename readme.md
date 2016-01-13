@@ -1,7 +1,7 @@
 
-The analysis and prediction pipeline is split into 3 classes within the asasa.user_adoption package.
+The analysis and prediction pipeline is split into 3 classes within the user_analtics.user_adoption package.
 
-* to execute code or run the contained Jupyter notebook add the asana package to your PYTHONPATH. There are no dependencies other than the standard scientific python stack. 
+* to execute code or run the contained Jupyter notebook add the user_analytics package to your PYTHONPATH. There are no dependencies other than the standard scientific python stack.
 
 1) UserFeatures: encapsulates data transformation logic
 
@@ -9,7 +9,7 @@ The analysis and prediction pipeline is split into 3 classes within the asasa.us
 
 3) AdoptionPredictor: runs RandomizedGridSearch using a RandomForest Classfier and outputs a report on model performance
 
-I did not have time to write tests. However, the modular design and methods performning small amounts of work was designed with 
+The modular design and methods performning small amounts of work was designed with
 the intention of being easily testable. Furthermore, the modular design could permit future code re-use and allow parallel work 
 by more than one person. 
 
