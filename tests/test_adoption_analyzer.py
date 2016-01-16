@@ -1,0 +1,1 @@
+from user_adoption.adoption_analyzer import AdoptionAnalyzer
